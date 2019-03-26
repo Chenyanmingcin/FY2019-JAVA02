@@ -1,0 +1,11 @@
+package billingSystem;
+
+public interface UserBiz {
+
+	void register(String username, String password, String password2
+	) throws RegisterException; //用户注册
+	
+	
+	void login(String username, String password) 
+	throws LoginException; //用户登录
+}
